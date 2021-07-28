@@ -1,0 +1,39 @@
+section .container{
+    width: 70%;
+}
+
+section {
+    padding: 110px 0;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+   box-shadow: 0 4px 12px rgba(0,0,0,0.8);
+   clip:rect(8px,auto,40px,auto);
+}
+
+
+#app {
+    font-family: Montserrat-Regular, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Montserrat-Regular, serif' !important;
+}
+
+html {
+    height: 100%;
+    font-size: 18px;
+}
+
+body {
+    min-width: 320px;
+    position: relative;
+    line-height: 1.4;
+    font-weight: normal;
+  
+    &.loading {
+      overflow: scroll;
+    }
+  }
+  
