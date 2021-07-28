@@ -4,7 +4,6 @@
 > Portfolio using VueJs, Vuetify, CosmicJS API
 
 <p align="center"><strong> Live demo <a href="http://haivo.42web.io/">here</a> ! </strong></p>
----
 
 ## Project setup
 ```
@@ -18,10 +17,6 @@ npm run serve
 ```
 npm run build
 
-- [Edit Content](#how-to-edit-content)
-
-
----
 ## How to edit content
 This template have a CMS support with CosmicJS. You can easily put your content there by creating and linking your CosmicJS account. 
 
