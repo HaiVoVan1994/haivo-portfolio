@@ -15,7 +15,7 @@
                     width="400px"
                 >
                     <v-img
-                    :src="getImgUrl(pro.image)"
+                    :src="pro.projectimage.imgix_url"
                     height="200px"
                     ></v-img>
 
@@ -40,12 +40,6 @@ export default {
     methods: {
         openSource (link) {
             window.open(link);
-        },
-
-        getImgUrl(img) {
-            if (!img)
-                return null;
-            return require('../assets/img/project/'+ img);
         },
     },
 }
