@@ -1,7 +1,7 @@
 <template>
   <section id="skills">
       <div class="container">
-           <AnimateOnVisible name="fade-up" duration="2000">
+          <AnimateOnVisible name="fade-up" duration="2000">
           <v-row justify="center" class="mb-4">
               <div class="title">
                 <h1><u>{{ skills.title }}</u></h1>

@@ -6,6 +6,7 @@
             <about size="size" :about="findObjectBySlug('about')" :links="findObjectBySlug('sociallinks')" />
             <experience :exp="findObjectBySlug('experiences')"/>
             <skills :skills="findObjectBySlug('skills')"/>
+            <certificates :certificates="findObjectBySlug('certificates')"/>
             <projects :projects="findObjectBySlug('projects')"/>
             <blogSection />
             <contact />
@@ -33,6 +34,7 @@
 import navigation from "../components/Navigation"
 import about from "../components/About"
 import skills from "../components/Skills"
+import certificates from "../components/Certificates"
 import contact from "../components/Contact"
 import experience from "../components/Experience"
 import blogSection from "../components/BlogSection"
@@ -47,7 +49,8 @@ export default {
         contact,
         experience,
         blogSection,
-        projects
+        projects,
+        certificates
     },
 
     data: () => ({
